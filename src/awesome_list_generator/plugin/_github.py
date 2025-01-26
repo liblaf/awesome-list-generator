@@ -73,7 +73,12 @@ class GitHubInfo(pydantic.BaseModel):
 
 
 def get_octokit() -> githubkit.GitHub:
-    return githubkit.GitHub(env.str("GITHUB_TOKEN", None))
+    return githubkit.GitHub(
+        env.str("INPUT_GITHUB_TOKEN", None)
+        or env.str("INPUT_TOKEN", None)
+        or env.str("GH_TOKEN", None)
+        or env.str("GITHUB_TOKEN", None)
+    )
 
 
 async def count_open_pulls(owner: str, repo: str) -> int:
