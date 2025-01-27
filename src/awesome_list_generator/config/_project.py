@@ -3,7 +3,7 @@ import pydantic
 
 class ProjectConfig(pydantic.BaseModel):
     name: str | None = None
-    category: str | None = None
+    categories: list[str] | None = None
     cargo: str | None = None
     conda: str | None = None
     ctan: str | None = None

@@ -18,10 +18,11 @@ def format_markdown(
 ) -> Generator[str]:
     categories: list[alg.Category] = list(categories)
     for project in projects:
-        if project.category not in [category.category for category in categories]:
-            categories.append(
-                alg.Category(category=project.category, title=project.category.title())
-            )
+        for category in project.categories:
+            if category not in [category.category for category in categories]:
+                categories.append(
+                    alg.Category(category=category, title=category.title())
+                )
     for category in categories:
         yield from format_category(category, projects)
 
@@ -33,7 +34,7 @@ def format_category(
     if category.subtitle:
         yield f"_{category.subtitle}_\n"
     for project in projects:
-        if project.category == category.category:
+        if category.category in project.categories:
             yield from format_project(project)
     yield "\n"
 

@@ -49,12 +49,12 @@ async def async_main(user: str | None) -> None:
         if repo.topics:
             for topic in repo.topics:
                 if category := TOPIC_TO_CATEGORY.get(topic):
-                    project.category = category
+                    project.categories = category
                     break
-        if (project.category is None) and repo.language:
+        if (project.categories is None) and repo.language:
             language: str = repo.language.lower()
             if category := LANGUAGE_TO_CATEGORY.get(language):
-                project.category = category
+                project.categories = category
         projects.append(project)
     cfg = alg.Config(categories=CATEGORIES, projects=projects)
     grapes.serialize(

@@ -10,7 +10,7 @@ from . import GitHubInfo
 
 
 class ProjectInfo(pydantic.BaseModel):
-    category: str = "others"
+    categories: list[str] = ["others"]
     github: GitHubInfo | None = None
 
     @property
@@ -35,8 +35,16 @@ class ProjectInfo(pydantic.BaseModel):
 
     @classmethod
     async def fetch(cls, config: alg.ProjectConfig) -> Self:
+        categories: list[str]
+        if config.categories:
+            if isinstance(config.categories, str):
+                categories = [config.categories]
+            else:
+                categories = config.categories
+        else:
+            categories = ["others"]
         return cls(
-            category=config.category or "others",
+            categories=categories,
             github=await GitHubInfo.fetch(config.github) if config.github else None,
         )
 
