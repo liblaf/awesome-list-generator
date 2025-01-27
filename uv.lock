@@ -62,7 +62,7 @@ wheels = [
 
 [[package]]
 name = "awesome-list-generator"
-version = "0.0.0"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "environs" },
@@ -101,9 +101,9 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 build = [
-    { name = "build", specifier = ">=1.2.2.post1" },
-    { name = "check-wheel-contents", specifier = ">=0.6.1" },
-    { name = "twine", specifier = ">=6.1.0" },
+    { name = "build", specifier = ">=1.2.2.post1,<2" },
+    { name = "check-wheel-contents", specifier = ">=0.6.1,<0.7" },
+    { name = "twine", specifier = ">=6.1.0,<7" },
 ]
 dev = [
     { name = "icecream", specifier = ">=2.1.4,<3" },

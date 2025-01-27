@@ -28,6 +28,12 @@ class ProjectInfo(pydantic.BaseModel):
         raise ValueError(msg)
 
     @property
+    def archived(self) -> bool:
+        if self.github:
+            return self.github.archived
+        return False
+
+    @property
     def description(self) -> str | None:
         if self.github and self.github.description:
             return self.github.description

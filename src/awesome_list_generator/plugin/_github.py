@@ -10,6 +10,7 @@ from environs import env
 class GitHubInfo(pydantic.BaseModel):
     owner: str
     name: str
+    archived: bool
     description: str | None = None
     topics: list[str] = []
     language: str | None = None
@@ -60,6 +61,7 @@ class GitHubInfo(pydantic.BaseModel):
         return cls(
             owner=repository.owner.login,
             name=repository.name,
+            archived=repository.archived,
             description=repository.description,
             topics=repository.topics or [],
             language=repository.language,

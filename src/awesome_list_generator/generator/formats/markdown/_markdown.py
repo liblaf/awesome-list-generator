@@ -40,7 +40,10 @@ def format_category(
 
 
 def format_project(project: alg.ProjectInfo) -> Generator[str]:  # noqa: C901
-    yield f"[**{project.name}**]({project.url}) <br />\n"
+    yield f"[**{project.name}**]({project.url})"
+    if project.archived:
+        yield " ![Archived](https://img.shields.io/badge/Archived-9e6a03?logo=GitHub)"
+    yield " <br />\n"
     if project.description:
         yield f"{project.description} <br />\n"
     if github := project.github:
