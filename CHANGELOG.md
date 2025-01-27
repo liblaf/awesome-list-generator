@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/liblaf/awesome-list-generator/compare/v0.1.1...v0.1.2) (2025-01-27)
+
+
+### 🐛 Bug Fixes
+
+* trigger release ([b622fb3](https://github.com/liblaf/awesome-list-generator/commit/b622fb3dbe81f3b94e70302c17bbea66b5552d53))
+
 ## [0.1.1](https://github.com/liblaf/awesome-list-generator/compare/v0.1.0..v0.1.1) - 2025-01-27
 
 ### ✨ Features
