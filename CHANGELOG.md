@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/liblaf/awesome-list-generator/compare/v0.1.0...v0.1.1) (2025-01-27)
+
+
+### ✨ Features
+
+* enhance repository categorization and display archived status ([6529464](https://github.com/liblaf/awesome-list-generator/commit/652946417bf4be4676cd7e4c74cd99dcb023d9c4))
+* support multiple categories per project and generate JSON schema ([3702eda](https://github.com/liblaf/awesome-list-generator/commit/3702eda47458c9863bea53d91f097d9d02ef4be1))
+
 ## [0.1.0] - 20250126
 
 ### ✨ Features
