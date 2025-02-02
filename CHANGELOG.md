@@ -1,21 +1,20 @@
 # Changelog
 
-## [0.1.3](https://github.com/liblaf/awesome-list-generator/compare/v0.1.2...v0.1.3) (2025-02-02)
-
+## [0.1.3](https://github.com/liblaf/awesome-list-generator/compare/v0.1.2..v0.1.3) - 2025-02-02
 
 ### 📝 Documentation
 
-* simplify project description in pyproject.toml ([d769086](https://github.com/liblaf/awesome-list-generator/commit/d76908691e0fd3e6cc241f7f233386884bb96b83))
+- simplify project description in pyproject.toml - ([d769086](https://github.com/liblaf/awesome-list-generator/commit/d76908691e0fd3e6cc241f7f233386884bb96b83))
+
+### ❤️ New Contributors
+
+- @liblaf made their first contribution
 
 ## [0.1.2](https://github.com/liblaf/awesome-list-generator/compare/v0.1.1..v0.1.2) - 2025-01-27
 
 ### 🐛 Bug Fixes
 
 - trigger release - ([b622fb3](https://github.com/liblaf/awesome-list-generator/commit/b622fb3dbe81f3b94e70302c17bbea66b5552d53))
-
-### ❤️ New Contributors
-
-- @liblaf made their first contribution
 
 ## [0.1.1](https://github.com/liblaf/awesome-list-generator/compare/v0.1.0..v0.1.1) - 2025-01-27
 
