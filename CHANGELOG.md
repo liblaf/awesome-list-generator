@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/liblaf/awesome-list-generator/compare/v0.1.2...v0.1.3) (2025-02-02)
+
+
+### 📝 Documentation
+
+* simplify project description in pyproject.toml ([d769086](https://github.com/liblaf/awesome-list-generator/commit/d76908691e0fd3e6cc241f7f233386884bb96b83))
+
 ## [0.1.2](https://github.com/liblaf/awesome-list-generator/compare/v0.1.1..v0.1.2) - 2025-01-27
 
 ### 🐛 Bug Fixes
