@@ -1,21 +1,21 @@
 # Changelog
 
-## [0.1.4](https://github.com/liblaf/awesome-list-generator/compare/v0.1.3...v0.1.4) (2025-02-09)
-
+## [0.1.4](https://github.com/liblaf/awesome-list-generator/compare/v0.1.3..v0.1.4) - 2025-02-09
 
 ### ⬆️ Dependencies
 
-* **deps:** update dependency liblaf-grapes to &gt;=0.0.3,&lt;0.0.4 ([#6](https://github.com/liblaf/awesome-list-generator/issues/6)) ([5e09213](https://github.com/liblaf/awesome-list-generator/commit/5e0921360dc79fcb708345eebd9a34f08552da22))
-
-## [0.1.3](https://github.com/liblaf/awesome-list-generator/compare/v0.1.2..v0.1.3) - 2025-02-02
-
-### 📝 Documentation
-
-- simplify project description in pyproject.toml - ([d769086](https://github.com/liblaf/awesome-list-generator/commit/d76908691e0fd3e6cc241f7f233386884bb96b83))
+- **deps:** update dependency liblaf-grapes to >=0.0.3,<0.0.4 (#6) - ([5e09213](https://github.com/liblaf/awesome-list-generator/commit/5e0921360dc79fcb708345eebd9a34f08552da22))
 
 ### ❤️ New Contributors
 
 - @liblaf made their first contribution
+- @renovate[bot] made their first contribution in [#6](https://github.com/liblaf/awesome-list-generator/pull/6)
+
+## [0.1.3](https://github.com/liblaf/awesome-list-generator/compare/v0.1.2..v0.1.3) - 2025-02-04
+
+### 📝 Documentation
+
+- simplify project description in pyproject.toml - ([d769086](https://github.com/liblaf/awesome-list-generator/commit/d76908691e0fd3e6cc241f7f233386884bb96b83))
 
 ## [0.1.2](https://github.com/liblaf/awesome-list-generator/compare/v0.1.1..v0.1.2) - 2025-01-27
 
