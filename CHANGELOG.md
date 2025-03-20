@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.8](https://github.com/liblaf/awesome-list-generator/compare/v0.1.7...v0.1.8) (2025-03-20)
+
+
+### ⬆️ Dependencies
+
+* **deps:** update dependency liblaf-grapes to &gt;=0.1.10,&lt;0.1.11 ([#19](https://github.com/liblaf/awesome-list-generator/issues/19)) ([6bddad8](https://github.com/liblaf/awesome-list-generator/commit/6bddad8e87bb3175a8a5aeef88c6c33683a6be49))
+* **deps:** update dependency liblaf-grapes to &gt;=0.1.9,&lt;0.1.10 ([#17](https://github.com/liblaf/awesome-list-generator/issues/17)) ([2a62a93](https://github.com/liblaf/awesome-list-generator/commit/2a62a937e93066768228ddf2fd50f56e357b470e))
+
 ## [0.1.7](https://github.com/liblaf/awesome-list-generator/compare/v0.1.6..v0.1.7) - 2025-03-01
 
 ### ⬆️ Dependencies
